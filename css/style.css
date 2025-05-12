@@ -182,6 +182,72 @@ header {
     display : none;
 }
 
+
+/****** Filtres ***********/
+.filter {
+    display : flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin : 35px 0;
+}
+
+.filter__direction--row {
+    display : flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.filter__button {
+    font-size : var(--title-font-size);
+    font-weight : var(--title-font-weight);
+    font-style : var(--title-font-style);
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border : 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    padding : 10px 20px;
+    background-color: var(--white);
+    margin-left : 15px;
+}
+
+.filter__button__image {
+    height : 22px;
+    margin-right : 10px;
+}
+
+.filter__button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+
+/****** Filtres ***********/
+.info {
+    display : flex;
+    flex-direction : row;
+    justify-content: start;
+    align-items: center;
+    margin : 35px 0;
+}
+
+.info__image {
+    width : 4px;
+    height : 10px;
+    padding : 7px 10px;
+    border : 2px solid var(--main-bg-color);
+    border-radius : 25px;
+    margin-right : 10px;
+}
+
+.info__text {
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    font-style: var(--text-font-style);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
