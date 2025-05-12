@@ -219,6 +219,10 @@ header {
     margin-right : 10px;
 }
 
+.filter__button:hover {
+    background-color: var(--filter-bg-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
