@@ -116,6 +116,25 @@ header {
 }
 
 
+/****** Présentation ***********/
+.presentation {
+    margin : 30px 0;
+}
+
+.presentation__title {
+    margin-bottom : 8px;
+    font-size : var(--header-font-size);
+    font-weight: var(--header-font-weight);
+    font-style: var(--header-font-style);
+}
+
+.presentation__text {
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    font-style: var(--text-font-style);
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
