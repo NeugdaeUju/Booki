@@ -200,9 +200,9 @@ header {
 }
 
 .filter__button {
-    font-size : var(--title-font-size);
+    font-size : var(--text-font-size);
     font-weight : var(--title-font-weight);
-    font-style : var(--title-font-style);
+    font-style : var(--text-font-style);
     display : flex;
     flex-direction: row;
     align-items: center;
@@ -224,7 +224,7 @@ header {
 }
 
 
-/****** Filtres ***********/
+/****** Information ***********/
 .info {
     display : flex;
     flex-direction : row;
