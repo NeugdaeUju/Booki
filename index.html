@@ -19,12 +19,9 @@
 
         <!--En-tête-->
         <header>
-             <!--Image du logo-->
              <img src="images/logo/Booki.png" alt="Logo Booki" class="header__logo">
              <nav>
-                <!--Lien de navigation avec une ancre vers la section des Hebergements à marseille-->
                 <a href="#hebergements" class="header__link">Hébergements</a>
-                <!--Lien de navigation avec une ancre vers la section des Activités à marseille-->
                 <a href="#activites" class="header__link">Activités</a>
              </nav>
         </header>
@@ -37,9 +34,12 @@
             </div>
 
             <!--Formulaire de recherche-->
-            <div>
-
-            </div>
+            <form class="form">
+                <img src="images/icons/location.svg" alt="Icone de localisation" class="form__location">
+                <input type="search" name="search" id="form__search" placeholder="Marseille, France">
+                <button class="form__button">Recherche</button>
+                <button class="form__button-mobile"><img src="images/icons/search.svg" alt="Icone de recherche"></button>
+            </form>
 
             <!--Filtres-->
             <div>
