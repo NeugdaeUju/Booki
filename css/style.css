@@ -87,6 +87,14 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** En-tête ***********/
+.header__logo {
+    padding : 30px 0;
+    width : 61px;
+    height : 19px
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
