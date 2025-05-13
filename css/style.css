@@ -274,10 +274,16 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-top: 33px;
+    width : 100%;
+}
+
+.hebergements-cards a {
+    width : 30%;
 }
 
 .hebergements-cards img {
     height : 124px;
+    width: 100%;
     border-top-left-radius : 20px;
     border-top-right-radius : 20px;
 }
