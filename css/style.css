@@ -56,9 +56,9 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: var(--title-font-size);
-    font-style : var(--title-font-style);
-    font-weight: var(--title-font-weight);
+    font-size: var(--header-font-size);
+    font-style : var(--header-font-style);
+    font-weight: var(--header-font-weight);
 }
 
 .card {
@@ -86,6 +86,7 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
 
 /****** En-tête ***********/
 header {
@@ -176,6 +177,7 @@ header {
     border : none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    cursor: pointer;
 }
 
 .form__button-mobile {
@@ -190,6 +192,12 @@ header {
     justify-content: start;
     align-items: center;
     margin : 35px 0;
+}
+
+.filter__title {
+    font-size : var(--title-font-size);
+    font-weight : var(--title-font-weight);
+    font-style : var(--title-font-style);
 }
 
 .filter__direction--row {
@@ -212,6 +220,7 @@ header {
     padding : 10px 20px;
     background-color: var(--white);
     margin-left : 15px;
+    cursor: pointer;
 }
 
 .filter__button__image {
@@ -249,7 +258,7 @@ header {
 }
 
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergements et Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -302,6 +311,7 @@ header {
     font-weight: var(--title-font-weight);
     font-style: var(--title-font-style);
 }
+
 
 /****** Populaires ***********/
 .populaires {
@@ -384,7 +394,7 @@ header {
 }
 
 
-/****** Activites ***********/
+/****** Pied de page ***********/
 footer {
     margin-top : 35px;
     background-color: var(--main-bg-color);
