@@ -248,6 +248,7 @@ header {
     font-style: var(--text-font-style);
 }
 
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -261,10 +262,34 @@ header {
     box-sizing: border-box;
 }
 
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
 }
+
+.hebergements-cards {
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.hebergements-cards img {
+    height : 124px;
+    border-top-left-radius : 20px;
+    border-top-right-radius : 20px;
+}
+
+.hebergements-cards .card-content {
+    padding : 4px 15px 15px 15px;
+}
+
+.hebergements-cards .card-subtitle {
+    padding : 8px 0;
+}
+
 
 /****** Populaires ***********/
 .populaires {
