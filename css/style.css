@@ -349,7 +349,39 @@ header {
 }
 
 
+/****** Activites ***********/
+.activites {
+    margin-top : 35px;
+    padding : 30px;
+}
 
+.activites_cards {
+    width: 100%;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 30px;
+}
+
+.activites_cards a {
+    width: 23%;
+}
+
+.activites_cards .card {
+    padding : 0;
+}
+
+.activites_cards img {
+    height: 380px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites_cards .card-content {
+    padding : 20px 19px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
