@@ -349,6 +349,11 @@ header {
 }
 
 
+/****** Activites ***********/
+.activites {
+    margin-top : 35px;
+    padding : 30px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
