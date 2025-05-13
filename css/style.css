@@ -296,6 +296,12 @@ header {
     padding : 8px 0;
 }
 
+.hebergements__more {
+    padding-top : 30px;
+    font-size : var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    font-style: var(--title-font-style);
+}
 
 /****** Populaires ***********/
 .populaires {
