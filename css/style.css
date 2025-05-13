@@ -383,6 +383,35 @@ header {
     padding : 20px 19px;
 }
 
+
+/****** Activites ***********/
+footer {
+    margin-top : 35px;
+    background-color: var(--main-bg-color);
+    display : flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer__section {
+    padding : 20px 20px 5px 20px;
+    display : flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.footer__section__title {
+    padding-bottom : 15px;
+    font-size: var(--title-font-size);
+    font-weight : var(--title-font-weight);
+    font-style : var(--title-font-style);
+}
+
+.footer__section__link {
+    padding-bottom : 15px;
+}
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
