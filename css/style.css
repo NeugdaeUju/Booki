@@ -555,7 +555,7 @@ footer {
         color : black;
     }
 
-    main {
+    .presentation , form , .filter , .info {
         padding : 0 20px;
     }
 
@@ -609,5 +609,27 @@ footer {
 
     .filter__button:active {
         background-color: var(--filter-bg-color);
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+         border-radius: 0px;
+         padding : 30px 20px;
+    }
+
+    .populaires {
+        margin-top : 0;
+        margin-bottom : 15px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
     }
 }
