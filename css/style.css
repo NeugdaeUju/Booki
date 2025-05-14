@@ -648,4 +648,22 @@ footer {
         margin-top : 15px;
         padding : 0;
     }
+
+    .activites {
+        margin-top : 35px;
+        padding : 30px;
+    }
+
+    .activites_cards {
+        flex-direction: column;
+    }
+
+    .activites_cards a {
+        width: 100%;
+        margin-top : 15px;
+    }
+
+    .activites_cards img {
+        height : 141px;
+    }
 }
