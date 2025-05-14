@@ -476,6 +476,18 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activites_cards img {
+        height: 200px;
+    }
+    
+    .activites_cards .card-content {
+        display : flex;
+        flex-direction: row;
+        align-items: center;
+        height : 40px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
