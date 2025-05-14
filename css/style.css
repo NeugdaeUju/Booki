@@ -458,6 +458,14 @@ footer {
         width: 100%;
     }
 
+    .hebergements-cards .card-title {
+        font-size: 14px;
+    }
+
+    .hebergements-cards .card-subtitle {
+        font-size: 13px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
