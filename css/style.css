@@ -200,6 +200,11 @@ header {
     font-style : var(--title-font-style);
 }
 
+.filter__direction {
+    display : flex;
+    flex-direction: row;
+}
+
 .filter__direction--row {
     display : flex;
     flex-direction: row;
@@ -433,8 +438,6 @@ footer {
     }
 
     .filter__direction {
-        display : flex;
-        flex-direction: row;
         margin-top : 20px;
     }
 
