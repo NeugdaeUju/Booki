@@ -633,6 +633,10 @@ footer {
         width: 100%;
     }
 
+    #hebergements {
+        background-color: var(--white);
+    }
+
     .hebergements-cards {
         margin-top : 0;
         flex-direction: column;
