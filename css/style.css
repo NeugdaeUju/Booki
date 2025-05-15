@@ -513,6 +513,37 @@ footer {
     .filter__button {
         font-size : 16px;
     }
+
+    .populaires {
+        margin-bottom : 15px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .activites {
+        margin-top : 35px;
+        padding : 30px;
+    }
+
+    .activites_cards {
+        flex-direction: column;
+    }
+
+    .activites_cards a {
+        width: 100%;
+        margin-top : 15px;
+    }
+
+    .activites_cards img {
+        height : 200px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -623,15 +654,6 @@ footer {
 
     .populaires {
         margin-top : 0;
-        margin-bottom : 15px;
-    }
-
-    .populaires-cards {
-        flex-direction: column;
-    }
-
-    .populaires-cards a {
-        width: 100%;
     }
 
     #hebergements {
@@ -652,20 +674,6 @@ footer {
     .hebergements__more {
         margin-top : 15px;
         padding : 0;
-    }
-
-    .activites {
-        margin-top : 35px;
-        padding : 30px;
-    }
-
-    .activites_cards {
-        flex-direction: column;
-    }
-
-    .activites_cards a {
-        width: 100%;
-        margin-top : 15px;
     }
 
     .activites_cards img {
