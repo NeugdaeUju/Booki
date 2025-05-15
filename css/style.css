@@ -614,8 +614,17 @@ footer {
         cursor: pointer;
     }
 
+    .filter__direction{
+        width : 100%;
+    }
+
+    .filter__direction--row {
+        width : 100%;
+    }
+
     .filter__button {
         font-size : 14px;
+        width: 50%;
     }
 
     .filter__button:hover {
