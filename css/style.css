@@ -156,15 +156,20 @@ header {
 
 #form__search {
     padding : 10px;
+    padding-left: 24px;
     font-size : var(--title-font-size);
     font-weight : var(--title-font-weight);
     font-style : var(--title-font-style);
     border : solid 2px var(--main-bg-color);
 }
 
+#form__search:focus {
+    outline: none;
+}
+
 ::placeholder {
     color : black;
-    text-align : center;
+    text-align : start;
 }
 
 .form__button {
@@ -589,7 +594,6 @@ footer {
         border-bottom-right-radius: 15px;
         border-top-right-radius: 15px;
         flex: 1;
-        padding-left: 24px;;
     }
 
     ::placeholder {
