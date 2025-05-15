@@ -436,6 +436,16 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .header__link:hover {
+        color : black;
+        border-top : none;
+    }
+
+    .header__link:active {
+        color : var(--main-color);
+        border-top : 2px solid var(--main-color);
+    }
+
     .filter {
         flex-direction: column;
         align-items: start;
@@ -448,6 +458,14 @@ footer {
     .filter__button {
         margin-left : 0;
         margin-right: 15px;
+    }
+
+    .filter__button:hover {
+        background-color: var(--white);
+    }
+
+    .filter__button:active {
+        background-color: var(--filter-bg-color);
     }
 
     .hebergements-and-populaires {
@@ -546,13 +564,9 @@ footer {
     }
 
     .header__link:active {
-        border-bottom : 2px solid var(--main-color);
         color : var(--main-color);
-    }
-
-    .header__link:hover {
         border-top : none;
-        color : black;
+        border-bottom : 2px solid var(--main-color);
     }
 
     .presentation , form , .filter , .info {
