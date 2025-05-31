@@ -444,7 +444,7 @@ footer {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-@media (max-width : 1210px) {
+@media (max-width : 1280px) {
     .hebergements-cards a {
     width : 32%;
     }
