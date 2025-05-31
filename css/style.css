@@ -414,7 +414,7 @@ footer {
     background-color: var(--main-bg-color);
     display : flex;
     flex-direction: row;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .footer__section {
@@ -573,6 +573,7 @@ footer {
 @media (max-width: 767.98px) {
     .main-container {
         padding : 0;
+        margin : 0;
     }
 
     header {
@@ -597,6 +598,7 @@ footer {
         padding-top : 0;
         width: 50%;
         text-align: center;
+        border-bottom : 2px solid var(--main-bg-color);
     }
 
     .header__link:active {
@@ -625,6 +627,8 @@ footer {
         border-bottom-right-radius: 15px;
         border-top-right-radius: 15px;
         flex: 1;
+        width : 80%;
+        padding-left : 15px;
     }
 
     ::placeholder {
@@ -703,6 +707,10 @@ footer {
         padding : 0;
     }
 
+    .activites {
+        padding : 30px 20px;
+    }
+
     .activites_cards img {
         height : 141px;
     }
@@ -710,11 +718,28 @@ footer {
     footer {
         flex-direction: column;
         align-items: center;
-        padding : 30px;
+        padding-left : 30px;
+        padding-top : 30px;
+        /*width : 90%;*/
     }
 
     .footer__section {
         width: 100%;
+        padding : 20px 5px;
     }
 
+}
+
+@media (max-width : 380px) {
+    .filter__button {
+        font-size : 13px;
+        width: 50%;
+        padding-left : 10px;
+        margin-right : 5px;
+    }
+
+    .filter__button__image {
+        height : 18px;
+        margin-right : 5px;
+    }
 }
