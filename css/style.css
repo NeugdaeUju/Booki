@@ -78,6 +78,12 @@ a {
     font-weight: var(--card-title-font-weight);
 }
 
+.card-subtitle {
+    font-size: var(--card-text-font-size);
+    font-style : var(--card-text-font-style);
+    font-weight: var(--card-text-font-weight);
+}
+
 .euro {
     font-weight: 600;
     font-size: 14px;
@@ -439,6 +445,20 @@ footer {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+@media (max-width : 1210px) {
+    .hebergements-cards a {
+    width : 32%;
+    }
+
+    .card-title {
+    font-size : 12px;
+    }
+
+    .card-subtitle {
+    font-size : 12px;
+}
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .header__link:hover {
